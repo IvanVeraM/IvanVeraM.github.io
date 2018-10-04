@@ -1,0 +1,215 @@
+header{
+	text-align: center;
+}
+header img{
+	width: 550px;
+	height: auto;
+}
+body{
+	background-size: cover;
+	background-position: center bottom;
+	background-color: green;
+	font-family: 'Sigmar One', cursive;
+	background-image: url('../img/roma.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+nav{
+	
+	width: 100%;
+	color: #005549 ;
+	background-color: rgba(231,235,218,0.75);
+	padding: 20px;
+	text-align: center;
+
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+
+}
+nav li: hover{
+	background-color: #4A6B32;
+}
+a{
+	color: #879060;
+}
+.lasaña{
+	border: 1px	solid #7FD861;
+	width: 75%;
+	background-color: rgb(255,255,255,0.75);
+	color: #7FD861;
+	margin: 10px;
+
+
+}
+.lasaña h2{
+	font-size: 30px;
+	color:  white;
+	background-color:#4A6B32;
+	text-align: center;
+	font-family: 'Italianno', cursive;
+}
+.lasaña p{
+	font-size: 20px;
+	margin: 10px;
+	font-family: 'Merriweather', serif;
+	color: #879060;
+}
+.lasaña img{
+	height: auto;
+	width: 200px;
+	margin: 20px
+}
+.pasta{
+	border: 1px	solid #7FD861;
+	width: 75%;
+	background-color: rgb(255,255,255,0.85);
+	color: #7FD861;
+	margin: 10px;
+	
+
+
+}
+.pasta h2{
+	font-size: 30px;
+	color:  white;
+	background-color: #4A6B32;
+	text-align: center;
+	font-family: 'Italianno', cursive;
+
+}
+.pasta p{
+	font-size: 20px;
+	margin: 10px;
+	font-family: 'Merriweather', serif;
+	color: #879060;
+}
+.pasta img{
+	height: auto;
+	width: 200px;
+	margin: 20px
+}
+.panini{
+	border: 1px	solid #7FD861;
+	width: 75%;
+	background-color: rgb(255,255,255,0.75);
+	color: #7FD861;
+	margin: 10px;
+
+
+
+}
+.panini h2{
+	font-size: 30px;
+	color:  white;
+	background-color: #4A6B32;
+	text-align: center;
+	font-family: 'Italianno', cursive;
+}
+
+
+.panini p{
+	font-size: 20px;
+	margin: 10px;
+	font-family: 'Merriweather', serif;
+	color: #879060;
+}
+.panini img{
+	height: auto;
+	width: 200px;
+	margin: 20px
+}
+.pizza{
+	border: 1px	solid #7FD861;
+	width: 75%;
+	background-color: rgb(255,255,255,0.85);
+	color: #7FD861;
+	margin: 10px;
+
+
+}
+.pizza h2{
+	font-size: 30px;
+	color:  white;
+	background-color: #4A6B32;
+	text-align: center;
+	font-family: 'Italianno', cursive;
+}
+.pizza p{
+	font-size: 20px;
+	margin: 10px;
+	font-family: 'Merriweather', serif;
+	color: #879060;
+
+}
+.pizza img{
+	height: auto;
+	width: 200px;
+	margin: 20px
+}
+
+a:hover{
+	background-color: #4A6B32;
+}
+footer{
+	clear: both;
+	background-color: rgb(255,255,255,0.75);
+	text-align: right;
+	padding: 5px;
+	border: 1px	solid #7FD861;
+	color: #7FD861;
+	margin: 10px;
+}
+.italia{
+	margin-top: -1510px;
+	position: absolute;
+	left: 950px;
+	
+	
+}
+.italia img{
+	height: auto;
+    width: 230px;
+	margin: 10px;
+
+}
+.italia2{
+	margin-top: -1300px;
+	position: absolute;
+	left: 950px;
+	
+	
+}
+.italia2 img{
+	height: auto;
+    width: 230px;
+	margin: 10px;
+
+}
+.pizzab{
+	margin-top: -1120px;
+	position: absolute;
+	left: 950px;
+	
+	
+}
+.pizzab img{
+	height: auto;
+    width: 230px;
+	margin: 10px;
+
+}
+.espaguetib{
+	margin-top: -950px;
+	position: absolute;
+	left: 950px;
+	
+	
+}
+.espaguetib img{
+	height: auto;
+    width: 230px;
+	margin: 10px;
+
+}

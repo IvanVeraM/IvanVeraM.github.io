@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/solid.css" integrity="sha384-osqezT+30O6N/vsMqwW8Ch6wKlMofqueuia2H7fePy42uC05rm1G+BUPSd2iBSJL" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css" integrity="sha384-BzCy2fixOYd0HObpx3GMefNqdbA7Qjcc91RgYeDjrHTIEXqiF00jKvgQG0+zY/7I" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+	<span class="logo">Layout
+		
+	</span>
+</header>
+	<nav class="nav-horizontal">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="blog.html"><i class="fa fa-pen"></i>Blog</a></li>
+			<li><a href="stock.html"><i class="fa fa-table"></i>Stock</a></li>
+			<li><a href="contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
+		</ul>
+	</nav>
+	<section class="front-articles">
+		<h1>Formulario de contacto</h1>
+		<form action="">
+			<fieldset>
+				<label for="nombre"><i class="fa fa-user"></i>Nombre</label>
+				<input type="text" name="nombre" id="nombre" placeholder="nombre" required>
+			</fieldset>
+
+			<fieldset>
+				<label for="apellidos"><i class="fa fa-user"></i>Apellidos</label>
+				<input type="text" name="apellidos" id="apellidos" placeholder="apellidos" required>
+			</fieldset>
+			<fieldset>
+				<label for="email"><i class="fa fa-envelope"></i>Email</label>
+				<input type="text" name="email" id="email" placeholder="correo" required>
+			</fieldset>
+			<fieldset>
+				<label for="pais"><i class="fa fa-globe"></i>Pais</label required>
+				<select name="pais" id="pais">
+					<option value="es">España</option>
+					<option value="cat">Catalunya</option>
+					<option value="uk">Reino Unido</option>
+					<option value="fr">Francia</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+					<label for="sexo"><i class="fa fa-user-circle "></i>Sexo</label>
+					<input type="radio" name="sexo" id="hombre" value="hombre">Hombre
+					<input type="radio" name="sexo" id="mujer" value="mujer">Mujer
+			</fieldset>
+				
+
+			<fieldset>
+					<label for="lenguajes"><i class="fa fa-code "></i>Lenguajes</label>
+					<input type="checkbox" name="lenguajes" id="java" value="java">Java
+					<input type="checkbox" name="lenguajes" id="csharp" value="csharp">C#
+					<input type="checkbox" name="lenguajes" id="js" value="js">JS
+			</fieldset>
+
+			<fieldset>
+					<label for="mensaje"><i class="fa fa-comment"></i>Mensaje</label>
+					<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+				</fieldset>
+				<input type="submit" name="Enviar">
+	
+
+		</form>
+
+
+
+		
+
+		
+	</section>
+	<aside>
+			<a class="twitter-timeline" data-lang="es" data-height="800" data-link-color="#589E47" href="https://twitter.com/NASA?ref_src=twsrc%5Etfw">Tweets by NASA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+	</aside>
+	<div class="clearfix"></div>
+
+	<footer>
+		
+	</footer>
+</body>
+</html>

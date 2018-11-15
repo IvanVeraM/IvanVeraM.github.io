@@ -1,0 +1,13 @@
+img{
+	width: 80px;
+}
+body{
+	font-family: 'Black And White Picture', sans-serif;
+	font-size: 18px;
+}
+.navbar-light .navbar-brand {
+	color: #206E37;
+}
+.navbar-brand span.logo {
+	font-size: 1.5em;
+}

@@ -1,0 +1,46 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+p {
+	color: #655560;
+	text-align: center;
+	font-size: 0.80em;
+}
+h1 {
+	color: #878C8F;
+
+}
+h2 {
+	color: #A4969B;
+	
+}
+header img.logo {
+	height: 50px;
+	margin-left: 35%;
+	
+}
+header {
+	background-color: #A4969B;
+
+}
+.footer-copyright{
+background-color: #A4969B;
+color: white;
+min-height: 2em;
+padding: 2em;
+
+}
+
+
+
+
+.noticia{
+	background-color: #A4969B;
+
+}
+.col-md-3{
+	
+	text-align: center;
+	padding: 0.5em;
+
+}

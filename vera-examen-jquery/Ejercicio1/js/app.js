@@ -9,13 +9,15 @@ $(document).ready(function(){
 
         var nombre = $("#nombre").val();
         $(".card-title").text(nombre);
-            
+
+             var apellido = $("#apellido").val();
+        $(".card-text").text(apellido);
 
         $(".card").show();
 
         var edad = $("#año-nacimiento").val();
         $(".card-title").text(nombre);
-        
+
 
     });
 

@@ -15,6 +15,7 @@ $(document).ready(function(){
 
         var edad = $("#año-nacimiento").val();
         $(".card-title").text(nombre);
+        
 
     });
 
